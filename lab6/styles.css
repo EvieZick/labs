@@ -1,0 +1,94 @@
+body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+header{
+    background-color: #000000;
+    background-image: url(images/lovey-dovey.jpg);
+    background-repeat: 0;
+    background-position: top;
+    color: #fff;
+}
+header>img{
+ max-width: 10rem;  
+ vertical-align: top; 
+}
+header>h1{
+    display: inline-block;
+    margin: 1rem 0;
+    vertical-align: top;
+    color: #ebebeb;
+}
+header>nav>a{
+    background-color: #ffffff;
+    color: #ff0000;
+    text-decoration: none;
+    padding: 1rem;
+}
+header h1{
+    display: inline-block;
+}
+header>nav{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 0;
+    padding-right: 0;
+}
+
+header>nav>a:hover{
+    background-color: #a76f8f;
+    color: #fff;
+    border: 1px solid #fff; 
+}
+header>nav>a{
+    border: 1px solid transparent;
+    display:inline-block
+}
+header a{
+    text-decoration: none;
+}
+
+main{
+    background-color: #ebebeb;
+    padding: 1rem;
+    max-width: 60rem;
+    margin: 1rem auto;
+}
+h2{
+    background-color: #0c1b61;
+    color: #fff;
+    padding: 1rem;
+    margin: 0 0 1rem;
+}
+h3{
+    background-color: #c0c6ff;
+    color: #000000;
+    padding: 1rem;
+    margin: 0 0 1rem;
+    font-style: italic;
+
+}
+p{
+    background-color:rgb(240, 243, 255);
+    margin:1rem;
+    padding:1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+}
+li{
+    background-color:rgb(126, 144, 233);
+    color: #06005e;
+    margin:1rem;
+    padding:1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px; 
+}
+img{
+    max-width: 100%;
+}
+body>.image-only{
+    float: none;
+    margin: 0;
+    width: 20%;
+}
