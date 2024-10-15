@@ -20,6 +20,9 @@ header>nav>a{
     color: #275218;
     text-decoration: none;
     padding: 1rem;
+    /*Missing
+    display: inline-block;
+    */
 }
 header>nav{
     padding-left: 1rem;
