@@ -59,56 +59,52 @@ nav{
     padding: 2rem 4rem;
 }
 @media (min-width:1100px){
-nav{
-    flex-basis: unset;
-}
-header{
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: baseline;
-}
-.about-me div{
-    flex-basis: 50%;
-    margin-left: 2rem;
-}
-.about-me h2{
-    flex-basis: 50%;
-    margin-left: 2rem;
-}
-h2{
-    padding-left: 4rem;
-}
-.gallery{
-    display: flex;
-    flex-flow: column;
-    max-height: 78rem; 
-}
-.gallery h2{
-    margin: .5rem;
-}
-.gallery img{
-    width: 32%;
-    margin: .5rem;
+    nav{
+        flex-basis: unset;
+    }
+    header{
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    /*Missing 
+    .about-me{
+    display:flex;}
+    */
+    .about-me div{
+        flex-basis: 50%;
+        margin-left: 2rem;
+    }
+    .about-me h2{
+        flex-basis: 50%;
+        margin-left: 2rem;
+    }
+    h2{
+        padding-left: 4rem;
+    }
+    .gallery{
+        display: flex;
+        flex-flow: column;
+        max-height: 78rem; 
+        /*Missing
+        flex-wrap: wrap;
+        */
+    }
+    .gallery h2{
+        margin: .5rem;
+    }
+    .gallery img{
+        width: 32%;
+        margin: .5rem;
+    }
 }
 @media (min-width:1500px){
     .gallery{
         max-height: 120rem;
     }
-    @media (min-width:2300px){
-
-
-
-
-
-
-
-    }
-
-
-
+}
+@media (min-width:2300px){
+    /*Missing max-height:150rem;*/
 
 }
 
-
-
-}
