@@ -71,6 +71,9 @@ nav{
     .about-me{
     display:flex;}
     */
+    .about-me{
+        display: flex;
+    }
     .about-me div{
         flex-basis: 50%;
         margin-left: 2rem;
@@ -89,6 +92,7 @@ nav{
         /*Missing
         flex-wrap: wrap;
         */
+        flex-wrap: wrap;
     }
     .gallery h2{
         margin: .5rem;
@@ -104,6 +108,7 @@ nav{
     }
 }
 @media (min-width:2300px){
+    max-height: 150rem;
     /*Missing max-height:150rem;*/
 
 }
