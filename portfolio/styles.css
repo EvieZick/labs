@@ -1,5 +1,4 @@
 header>img{
-    max-width: 10%;  
     vertical-align: top; 
     padding-left: 1rem;
    }
@@ -10,7 +9,7 @@ header>nav{
     vertical-align: top;
     height: 5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 header{
@@ -26,19 +25,20 @@ nav>a{
 }
 
 header{
-    position: fixed;
     top: 0;
     width: 100%;
     z-index: 0;
 }
-main{
-    margin-top: 5rem;
+
+.contact p{
+    margin: 0;
 }
 
 .pfp img{
     border: 1rem solid #ffd3db;
     max-height: 27rem;
     margin-left: 3rem;
+    max-width: 85%;
 }
 .pfp p{
     color: #ffd3db;
@@ -55,6 +55,7 @@ h1{
     color: #8c3839;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2rem;
+    padding-left: 1rem;
 }
 h2{
     color: #8c3839;
@@ -76,6 +77,10 @@ h4{
 .contact{
     background-color: #8c3839;
     color: #ffd3db;
+   
+    bottom: 0;
+    width: 100%;
+    text-align: center;
     
 }
 .contact p{
@@ -83,4 +88,120 @@ h4{
 }
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.work img{
+    border: 1rem solid #ffd3db;
+    max-height: 27rem;
+    margin-left: 3rem; 
+}
+
+p{
+    margin:1rem;
+    padding:1rem;
+    font-size: 17px;
+    
+}
+
+
+
+li{
+    background-color:rgb(240, 243, 255);
+}
+
+
+@media (max-width: 700px){
+    .work img{
+        max-width: 90%; 
+        margin-left: 1rem;
+        border: .6rem solid #ffd3db;
+    } 
+    header>nav{
+        height: 3rem;
+        font-size: 1.2rem;
+    }  
+    .pfp{
+        background-color: #2b4743;
+        display: flexbox;
+    
+
+    }
+    header>img{
+        max-width: 2rem;
+    }
+
+    .graphicdesign img{
+        max-width: 90%;
+        padding: .5rem;
+        display: grid;
+    }
+    .art img{
+        max-width: 90%;
+        padding: .5rem;
+        display: grid;
+    }
+    .photography img{
+        max-width: 90%;
+        padding: .5rem;
+        display: grid;
+    }
+
+    .about p{
+        margin: 0;
+    }
+
+}
+
+
+@media (min-width: 700px){
+    .pfp{
+        background-color: #2b4743;
+        padding: 2rem;
+        display: inline-block;
+    }
+    h1{
+        display: inline-block;
+        margin: 1rem;
+    }
+    header>img{
+        max-width: 4rem;
+       }
+       
+
+    .about{
+        display: flex;
+    }
+    .pfp{
+        flex:1;
+        text-align: center;
+    }
+    .about div:last-child{
+        flex:2;
+    }
+
+    .graphicdesign img{
+        max-width: 30%;
+        padding: .5rem;
+        
+    }
+
+    .art img{
+        max-width: 30%;
+        padding: .5rem;
+        
+    }
+
+    .photography img{
+        max-height: 10%;
+        max-width: 50%;
+        padding: .5rem;
+        
+    }
+
+    .pfp{
+        background-color: #2b4743;
+        display: flexbox;
+        height: 60vh;
+
+    }
 }
