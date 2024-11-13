@@ -8,7 +8,7 @@ header>nav{
     display: inline-block;
     vertical-align: top;
     height: 5rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
 
 }
@@ -103,15 +103,24 @@ p{
     font-size: 17px;
     
 }
-
-
+main{
+    background-image: url(images/fillergraphic);
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+.evie h1{
+    background-color: white;
+}
+.evie p{
+    background-color: white;
+}
 
 li{
     background-color:rgb(240, 243, 255);
 }
 
 
-@media (max-width: 700px){
+@media (max-width: 800px){
     .work img{
         max-width: 90%; 
         margin-left: 1rem;
@@ -119,7 +128,7 @@ li{
     } 
     header>nav{
         height: 3rem;
-        font-size: 1.2rem;
+        font-size: .9rem;
     }  
     .pfp{
         background-color: #2b4743;
@@ -202,7 +211,7 @@ li{
     .pfp{
         background-color: #2b4743;
         display: flexbox;
-        height: 60vh;
+        height: 70vh;
 
     }
 }
