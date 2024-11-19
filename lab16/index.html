@@ -8,14 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Eater&family=Montserrat:ital,wght@0,700;1,700&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stars.css">
 </head>
 <body>
     <header>
         <nav>
-            <a>Overview</a>
-            <a>Robots</a>
-            <a>Timeline</a>
-            <a>Maps</a>
+            <a href="#overview">Overview</a>
+            <a href="#robots">Robots</a>
+            <a href="#timeline">Timeline</a>
+            <a href="#maps">Maps</a>
         </nav>
     </header>
     <main>
@@ -32,11 +33,14 @@
 
             </div>
 
-            <div class="rover">
-                <img src="images/rover.svg" alt="alt">
-                <img src="images/planet.svg" alt="planet" class="planet">
+            <div class="myguy">
+                <img src="images/guy.png" alt="weird little alen guy" class="guy">
             </div>
 
+            <div class="rover">
+                <img src="images/rover.svg" alt="alt">
+            </div>
+            <img src="images/planet.svg" alt="planet" class="planet">
             <div class="mars">
                 <h1>The Mars Rover</h1>
             </div>
@@ -56,13 +60,13 @@
             <h2 id="robots"></h2>
             <hr>
             <div class="robots">
-                <img src="images/mars2020-2.png" alt="alt">
-                <img src="images/msl-2.png" alt="alt">
-                <img src="images/marshelicopter-2.png" alt="alt">
+                <figure><img src="images/mars2020-2.png" alt="alt"><figcaption>Mars 2020</figcaption></figure>
+                <figure><img src="images/msl-2.png" alt="alt"><figcaption>Curiosity Rover</figcaption></figure>
+                <figure><img src="images/marshelicopter-2.png" alt="alt"><figcaption>Helicopter Tech Demo</figcaption></figure>
             </div>
             <hr>
             <h3>Rover Parts</h3>
-            <iframe src="https://mars.nasa.gov/gltf_embed/24584" width="800px" height="450px" frameborder="0"></iframe>
+            <iframe src="https://mars.nasa.gov/gltf_embed/24584" width="800" height="450" frameborder="0"></iframe>
 
             <div class="grid">
                 <hr>
@@ -112,7 +116,7 @@
 
             <h2 id="timeline">Mission Timeline</h2>
             <hr>
-            <div>
+            <div class="grid">
                 <hr>
 
                 <h3>Prelaunch Activities
@@ -158,8 +162,8 @@
             <h2 id="maps">Maps</h2>
             <hr>
             <div class="maps">
-                <img src="images/map1.jpeg" alt="map">
-                <img src="images/map2.jpeg" alt="map">
+                <figure><img src="images/map1.jpeg" alt="map"><figcaption>Spirit's Journey</figcaption></figure>
+                <figure><img src="images/map2.jpeg" alt="map"><figcaption>Opportunity's Journey</figcaption></figure>
             </div>
                 
             
