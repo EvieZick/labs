@@ -108,8 +108,8 @@ nav{
     }
 }
 @media (min-width:2300px){
-    max-height: 150rem;
-    /*Missing max-height:150rem;*/
-
+    .gallery{
+        max-height: 150rem;
+    }
 }
 
