@@ -104,7 +104,7 @@ form .button{
 }
 .gallery{
     position: relative;
-    width: calc(100% -4rem);
+    width: calc(100% -4rem);/*Missing a space after minus sign*/
     max-width: 100%;
     height: calc(100vw / 1.778);
 }
@@ -160,7 +160,7 @@ h3{
     height: 5rem;
     top: .5rem;
 }
-.about h2:after, .order h2:after, .order h2:before{
+.about h2:after, .order h2:after, .order h2:before{/*One of the orders should be menu*/
     right: 0;
 }
 .menu h2:before, .about h2:before, .order h2:before{
