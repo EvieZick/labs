@@ -65,6 +65,7 @@ header a:hover{
 }
 .planet{
     animation: rise 10s ease-in 1 forwards;
+<<<<<<< Updated upstream
 
 }
 @keyframes rise{
@@ -175,4 +176,6 @@ section{
         left: 10%;
     }
 
+=======
+>>>>>>> Stashed changes
 }
