@@ -83,27 +83,29 @@ p{
     grid-column:1/3;
 }
 
-/*The rest of this CSS should be in media queries. Check instructions*/
-body{
-    display: grid;
-    grid-template-columns: 20rem auto;
-}
+/*Updates CSS to be in query*/
+@media (min-width:800px){
+    body{
+        display: grid;
+        grid-template-columns: 20rem auto;
+    }
 
 
-.sidenav {
-    grid-column: 1; 
-    padding: 1rem;
-    display: flex;
-    flex-direction: column; 
-}
+    .sidenav {
+        grid-column: 1; 
+        padding: 1rem;
+        display: flex;
+        flex-direction: column; 
+    }
 
-main {
-    grid-column: 2; 
-    padding: 1rem;
-}
+    main {
+        grid-column: 2; 
+        padding: 1rem;
+    }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    grid-column:1/3;
+    header{
+        display: flex;
+        justify-content: space-between;
+        grid-column:1/3;
+    }
 }
