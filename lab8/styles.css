@@ -25,7 +25,7 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 0;/*Change to 1. That will push the header infront of the transparent animals section, then you will be able to click on the navigation links*/
+    z-index: 1;
 }
 .animal-background{
     position: fixed;
