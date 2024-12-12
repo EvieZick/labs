@@ -20,10 +20,14 @@ header h2{
 
 }
 
+.about-section{
 
-header nav{
+        background-image: url(images/HeaderImage);
+        background-size: cover;
     
 }
+
+
   
   body {
     font-family: Arial, sans-serif;
