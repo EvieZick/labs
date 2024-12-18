@@ -37,17 +37,20 @@ header h2{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('images/'); 
     background-size: cover;
     background-position: center;
     opacity: ;
     z-index: -1;
 }
 
-.about-content{
+.about-content {
     padding: 50px;
+    background-image: url(images/HeaderImage.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    position: relative; 
 }
-
 .title{
     font-family: "Squada One", sans-serif;
     text-decoration: none;
@@ -161,7 +164,7 @@ header img.logo{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     background-color: #f6f6e9;
     margin: 0 auto;
     margin-top: 2rem;
@@ -187,7 +190,7 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     background-color: #f6f6e9;
     margin: 0 auto;
     margin-top: 2rem;
@@ -207,7 +210,7 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     background-color: #f6f6e9;
     margin: 0 auto;
     margin-top: 2rem;
@@ -236,7 +239,7 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     background-color: #f6f6e9;
     margin: 0 auto;
     margin-top: 2rem;
@@ -256,7 +259,7 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     background-color: #f6f6e9;
     margin: 0 auto;
     margin-top: 2rem;
@@ -438,7 +441,8 @@ footer a:hover{
     width: 100%;
     height: auto; 
     margin: 0; 
-    padding: 0; 
+    padding: 2.5rem 2.5rem 2.5rem 2.5rem; 
+    
 }
 
 
@@ -476,6 +480,17 @@ footer a:hover{
     .about-us img:nth-of-type(2){
         content: url("images/mobile2.png");
     }
+
+    .bottompart img{
+        display: block;
+        width: 100%;
+        height: auto; 
+        margin: 0; 
+        padding: 0 0 0 0;
+        
+    }
+
+
     footer a{
         color: #467a7d;
         text-decoration: none;
